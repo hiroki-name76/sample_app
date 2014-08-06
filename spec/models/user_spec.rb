@@ -4,7 +4,7 @@ describe User do
 
   before do
     @user = User.new(name: "Example User", email: "user@example.com",
-      password: "",password_confirmation: "")
+      password: "", password_confirmation: "")
   end
 
   subject { @user }
